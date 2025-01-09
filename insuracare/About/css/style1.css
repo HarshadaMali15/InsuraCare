@@ -1,0 +1,93 @@
+ /* Custom styles for the light background and right-positioned image */
+ .hero-section {
+    background-color: #F8F9FA; /* Light white background */
+    height: 250px;
+    position: relative;
+}
+.hero-image {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    height: 100%;
+    max-width: 100%; /* Adjust the size to fit on the right side */
+    opacity: 0.9; /* Optional: slight transparency for the image */
+}
+
+/* Second Section */
+.card-section {
+background-color: #f8f9fa; /* Light background color */
+padding: 40px 0;
+}
+.card1 {
+border: 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+height: 100%; /* Ensures equal height */
+}
+.card-body {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.icon {
+width: 50px;
+margin-bottom: 20px;
+}
+.card-title {
+font-weight: bold;
+color: #0d1e5b;
+}
+.card-text {
+color: #6c757d;
+text-align: center;
+}
+
+/* Third Section  */
+.choose-us-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.values-content .card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: none;
+}
+
+.values-content .card-icon {
+    background-color: #1a2a6c;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+}
+
+h6.text-primary {
+    color: #1a2a6c;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}

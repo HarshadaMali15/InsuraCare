@@ -1,0 +1,261 @@
+
+  .main-container  {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container .container {
+    
+    background-color: #fff;
+  
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Form Container */
+  form {
+    background: #ffffff;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+ 
+  /* Section Heading */
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  /* Input Styling */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input[type="text"], input[type="number"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+
+  /* Navigation Buttons */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    background: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background: #0056b3;
+  }
+
+  button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+
+  /* Hide sections initially */
+  .form-section {
+    display: none;
+  }
+
+  .form-section.active {
+    display: block;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+    input {
+      font-size: 13px;
+    }
+  }
+
+  
+  /* Section Heading */
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  /* Input Styling */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input[type="text"], input[type="number"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+
+  /* Navigation Buttons */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    background: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background: #0056b3;
+  }
+
+  button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+
+  /* Hide sections initially */
+  .form-section {
+    display: none;
+  }
+
+  .form-section.active {
+    display: block;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+    input {
+      font-size: 13px;
+    }
+  }
+
+  /* document upload */
+/* General Styles for Upload Section */
+.container.form-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading and Description */
+.container.form-container h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container.form-container p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.container.form-container ul {
+  margin-left: 20px;
+  color: #555;
+}
+
+/* File Input Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control-file {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.alert {
+  display: none;
+  color: #d9534f;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .form-group.col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+/* Add Button Spacing */
+.navigation {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navigation button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: #0056b3;
+}

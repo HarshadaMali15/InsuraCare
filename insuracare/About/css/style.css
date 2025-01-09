@@ -1,0 +1,223 @@
+
+/*** Carousel Hero Header Start ***/
+/* .header-carousel .header-carousel-item {
+    height: 700px;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: var(--bs-light);
+    color: var(--bs-primary);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.header-carousel .owl-nav .owl-prev {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 30px;
+}
+.header-carousel .owl-nav .owl-next {
+    bottom: 30px;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-right: 30px;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    box-shadow: inset 0 0 100px 0 var(--bs-secondary);
+    color: var(--bs-white);
+}
+
+.header-carousel .header-carousel-item .carousel-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .header-carousel .header-carousel-item .carousel-caption {
+        padding-top: 45px;
+    }
+
+    .header-carousel .header-carousel-item {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-carousel .header-carousel-item {
+        height: 950px;
+    }
+
+    .header-carousel .owl-nav .owl-prev {
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: -45px;
+    }
+
+    .header-carousel .owl-nav .owl-next {
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 45px;
+    }
+} */
+/*** Carousel Hero Header End ***/
+
+
+/*** Single Page Hero Header Start ***/
+/* .bg-breadcrumb {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+    transition: 0.5s;
+}
+
+.bg-breadcrumb .breadcrumb {
+    position: relative;
+}
+
+.bg-breadcrumb .breadcrumb .breadcrumb-item a {
+    color: var(--bs-white);
+} */
+/*** Single Page Hero Header End ***/
+
+
+/*** Feature Start ***/
+.feature .feature-item {
+    border-radius: 10px;
+    background: var(--bs-white);
+    transition: 0.5s;
+}
+
+.feature .feature-item:hover {
+    background: var(--bs-primary);
+}
+
+.feature .feature-item .feature-icon {
+    position: relative;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--bs-light);
+}
+
+.feature .feature-item:hover .feature-icon i {
+    z-index: 9;
+}
+
+.feature .feature-item .feature-icon::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--bs-dark);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.feature .feature-item:hover .feature-icon::after {
+    height: 100%;
+}
+
+.feature .feature-item .feature-icon {
+    color: var(--bs-primary);
+}
+
+.feature .feature-item .feature-icon,
+.feature .feature-item h4,
+.feature .feature-item p {
+    transition: 0.5s;
+}
+
+.feature .feature-item:hover .feature-icon {
+    color: var(--bs-white);
+}
+.feature .feature-item:hover h4,
+.feature .feature-item:hover p {
+    color: var(--bs-white);
+}
+
+.feature .feature-item:hover a.btn {
+    background: var(--bs-white);
+    color: var(--bs-primary);
+}
+
+.feature .feature-item:hover a.btn:hover {
+    background: var(--bs-dark);
+    color: var(--bs-white);
+}
+/*** Feature End ***/
+
+
+
+
+
+/*** Contact Start ***/
+.contact .contact-img {
+    position: relative;
+}
+
+.contact .contact-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    animation-name: image-efects;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: 0.5s
+}
+
+@keyframes image-efects {
+    0%  {border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;}
+
+    25% {border-radius: 35% 65% 27% 73% / 71% 25% 75% 29%;}
+
+    50% {border-radius: 41% 59% 45% 55% / 32% 21% 79% 68%;}
+
+    75% {border-radius: 69% 31% 39% 61% / 70% 83% 17% 30%;}
+
+    100% {border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;}
+}
+
+.contact .contact-img .contact-img-inner {
+    position: relative;
+    z-index: 9;
+}
+/*** Contact End ***/
+

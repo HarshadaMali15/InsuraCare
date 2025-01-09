@@ -1,0 +1,15 @@
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.05); /* Scales the card slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow on hover */
+}
+.card-hover:hover img {
+    opacity: 0.9; /* Slightly dims the image */
+}
+
+.card-hover:hover h4 {
+    color: #007bff; /* Changes the text color to a primary blue */
+}

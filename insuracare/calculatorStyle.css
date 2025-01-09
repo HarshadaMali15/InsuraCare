@@ -1,0 +1,48 @@
+.main-container  {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+   
+}
+.main-container .container {
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #0d1126 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #1a2457 ;
+}
